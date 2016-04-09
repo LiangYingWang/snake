@@ -1,0 +1,62 @@
+*{
+    padding:0px;
+	margin:0px;
+}
+#content 
+{
+	width:1000px;
+	margin:0 auto;
+}
+#content  #pannel
+{
+	margin:20px auto;
+
+}
+#content  #pannel table { 
+   border-collapse: collapse; 
+   background:yellow;
+/*
+  为边框属性：表示表格的两边框是不是会分开
+  border-collapse: collapse|separate|inherit
+
+*/
+} 
+#content  #pannel table td { 
+	border: 1px solid #808080; 
+	width: 10px; 
+	height: 10px; 
+	font-size: 0; 
+	line-height: 0; 
+	overflow: hidden; 
+} 
+#content #pannel table .snake { 
+	background-color: black; 
+} 
+#content #pannel table .food { 
+	background-color: green; 
+} 
+#content #selSize
+{
+	width:100px;
+	height:25px;
+	font-size:16px;
+}
+#content #selSpeed
+{
+	width:100px;
+	height:25px;
+	font-size:16px;
+}
+#content #btnStart
+{
+	width:100px;
+	height:25px;
+	font-size:16px;
+	background:#ccc;
+	margin-bottom:20px;
+}
+#content #btnStart:hover
+{
+	background:yellow;
+	color:red;
+}

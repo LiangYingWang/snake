@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+   <head>
+       <meta charset="utf-8" />
+       <link type="text/css" href="style.css" rel="stylesheet" /> 
+	   
+   </head>
+   <body>
+       <div id="content">
+			<div id="pannel"></div> 
+			<select id="selSize"> 
+				<option value="20">20*20</option> 
+				<option value="30">30*30</option> 
+				<option value="40">40*40</option> 
+				<option value="50">50*50</option> 
+			</select> 
+			<select id="selSpeed"> 
+				<option value="500">慢速</option> 
+				<option value="250" selected="selected">中速</option> 
+				<option value="100">快速</option> 
+			</select> 
+			<input type="button" id="btnStart" value="开始游戏" /> 		
+			<p>游戏规则：按键盘的↑、↓、←、→键改变小蛇运动的方向。<br />吃到更多的食物，才能获得更高的分数哦</p>
+	  </div>
+	  <script src="snake.js"></script>
+   </body>
+</html>
